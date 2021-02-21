@@ -1,0 +1,17 @@
+ALTER TABLE stores
+ADD id_user_store INT(11),
+ADD name_store TEXT,	
+ADD url_store TEXT,	
+ADD logo_store TEXT,	
+ADD cover_store TEXT,	
+ADD about_store TEXT,	
+ADD abstract_store TEXT,
+ADD email_store TEXT,
+ADD country_store TEXT,	
+ADD city_store TEXT,	
+ADD address_store TEXT,	
+ADD phone_store TEXT,	
+ADD socialnetwork_store TEXT,	
+ADD products_store TEXT,	
+ADD date_created_store DATE,	
+ADD date_updated_store TIMESTAMP;

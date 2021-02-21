@@ -1,0 +1,16 @@
+ALTER TABLE users
+ADD rol_user TEXT,	
+ADD picture_user TEXT,	
+ADD displayname_user TEXT,	
+ADD username_user TEXT,	
+ADD password_user TEXT,	
+ADD email_user TEXT,	
+ADD country_user TEXT,	
+ADD city_user TEXT,	
+ADD phone_user TEXT,	
+ADD address_user TEXT,	
+ADD token_user TEXT,	
+ADD method_user TEXT,	
+ADD wishlist_user TEXT,	
+ADD date_created_user DATE,	
+ADD date_updated_user TIMESTAMP;

@@ -1,0 +1,9 @@
+ALTER TABLE disputes
+ADD id_order_dispute INT(11),	
+ADD stage_dispute TEXT,	
+ADD transmitter_dispute INT(11),	
+ADD receiver_dispute INT(11),	
+ADD content_dispute TEXT,	
+ADD answer_dispute TEXT,	
+ADD date_created_dispute DATE,	
+ADD date_updated_dispute TIMESTAMP;

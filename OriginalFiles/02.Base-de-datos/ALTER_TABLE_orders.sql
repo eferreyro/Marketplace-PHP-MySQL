@@ -1,0 +1,16 @@
+ALTER TABLE orders
+ADD id_store_order INT(11),	
+ADD id_user_order INT(11),	
+ADD id_product_order INT(11),	
+ADD details_order TEXT,	
+ADD quantity_order TEXT,	
+ADD price_order TEXT,	
+ADD email_order TEXT,	
+ADD country_order TEXT,	
+ADD city_order TEXT,	
+ADD phone_order TEXT,	
+ADD address_order TEXT,	
+ADD process_order TEXT,	
+ADD status_order TEXT,	
+ADD date_created_order DATE,	
+ADD date_updated_order TIMESTAMP;
